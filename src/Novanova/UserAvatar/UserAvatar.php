@@ -20,7 +20,7 @@ class UserAvatar
      * @return string
      * @throws UserAvatarException
      */
-    public static function create($photo, $path, $sex)
+    public static function create($photo, $path, $sex = null)
     {
         if ($filename = FS::makeFilename($path, 'jpg')) {
             if ($photo) {
