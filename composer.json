@@ -1,0 +1,25 @@
+{
+    "name": "2nova/user-avatar",
+    "description": "User Avatar Helper",
+    "license": "MIT",
+    "keywords": ["avatars"],
+    "version": "0.1.1",
+    "authors": [
+        {
+            "name": "Ivan Nikitin",
+            "email": "vantoozz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "gregwar/image": "~2",
+        "2nova/helper-fs": "dev-master",   
+        "2nova/eight-bit-icon": "dev-master"    
+    },
+    "autoload": {
+        "psr-0": {
+            "Novanova\\UserAvatar": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
